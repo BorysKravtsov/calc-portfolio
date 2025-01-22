@@ -1,0 +1,21 @@
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap:10px;
+    max-width: 240px;
+}
+
+.operator, .function{
+    flex-direction: column;
+}
+
+.enter{
+    font-size: 15px;
+}
+
+
+ul{
+    padding: 0 0 0 20px;
+    list-style: none;
+}
